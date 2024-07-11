@@ -1,0 +1,72 @@
+body {
+ background-color: #dcdcdc;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  margin-right: 10pt;
+  padding: 0;
+  text-align: center;
+  font-size: 8;
+ 
+}
+
+/* Mengatur gaya navbar */
+.navbar {
+  border: none;
+  background-color: rgb(6, 221, 6);
+}
+
+.navbar-brand {
+  color: black;
+  /* Warna putih untuk teks navbar */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  /* Warna putih untuk link navbar */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #dcdcdc;
+  /* Warna abu-abu terang saat dihover */
+}
+
+.navbar-nav .nav-link.active {
+
+  color: #ff0;
+  /* Warna kuning untuk link aktif */
+}
+
+.visi {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify;
+
+}
+
+.Misi {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify;
+
+}
+.nilai-kami {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify;
+}
+
+.program-unggulan {
+ 
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: justify;
+}
+
+.pasilitas{
+  border-image: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: justify;
+
+}
