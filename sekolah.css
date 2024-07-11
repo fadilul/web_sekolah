@@ -66,7 +66,7 @@ body {
 .sambutan {
     margin-left: 100px;
     margin-right: 100px;
-    text-align: justify;
+    text-align: center;
 }
 
 /* CSS untuk footer */
@@ -115,5 +115,61 @@ footer a:hover {
 
     footer {
         padding: 20px;
+    }
+}
+
+/* Media Queries untuk layar tablet */
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 13px; /* Ukuran font untuk layar tablet */
+    }
+
+    .navbar-brand {
+        font-size: 18px; /* Ukuran font navbar-brand lebih besar */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 15px; /* Ukuran font nav-link lebih besar */
+    }
+
+    .carousel-item img {
+        height: 400px; /* Ukuran gambar carousel untuk tablet */
+    }
+
+    .sambutan {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
+/* Media Queries untuk layar desktop */
+@media (min-width: 769px) {
+    body {
+        font-size: 14px; /* Ukuran font untuk layar desktop */
+    }
+
+    .navbar-brand {
+        font-size: 20px; /* Ukuran font navbar-brand lebih besar */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px; /* Ukuran font nav-link lebih besar */
+    }
+
+    .carousel-item img {
+        height: 500px; /* Ukuran gambar carousel untuk desktop */
+    }
+
+    .sambutan {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    footer {
+        padding: 50px;
     }
 }
